@@ -1,0 +1,16 @@
+include README.md
+include README_CURRENT.md
+include TECHNICAL_DOCS.md
+include TECHNICAL_DOCS_CURRENT.md
+include CHANGELOG.md
+include CONTRIBUTING.md
+include LICENSE
+include requirements.txt
+include setup.py
+recursive-include loan_calc/templates *
+recursive-include loan_calc/static *
+global-exclude *.pyc
+global-exclude *.pyo
+global-exclude __pycache__
+global-exclude .git*
+global-exclude .DS_Store 
